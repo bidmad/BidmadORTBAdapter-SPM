@@ -15,7 +15,7 @@ let package = Package(
     .library(name: "BidmadORTBAdapter", targets: ["BidmadORTBAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
   ],
   targets: [
     .target(
@@ -27,8 +27,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadORTBAdapter",
-      url: "https://github.com/bidmad/BidmadORTBAdapter-SPM/releases/download/7.2.0-dev.5/BidmadORTBAdapter.xcframework.zip",
-      checksum: "755108ad09a260b5ea6d476265f38bab2a8d854e04e01562f47ad713c2bf712e"
+      url: "https://github.com/bidmad/BidmadORTBAdapter-SPM/releases/download/7.2.0-dev.7/BidmadORTBAdapter.xcframework.zip",
+      checksum: "8d72a54be33e7dd52188a72b76c4940e75a0c7bcada92b69c4708f29ddbe8a87"
     ),
   ]
 )
